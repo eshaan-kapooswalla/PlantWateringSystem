@@ -1,1 +1,2 @@
 # PlantWateringSystem
+This automated plant watering system uses Java and an Arduino to monitor soil moisture and control a water pump accordingly. A moisture sensor detects soil conditions, and based on the readings, the system toggles the pump on or off. An SSD1306 OLED display shows real-time data like pump status and moisture levels, while the Firmata4J library enables seamless communication between the Arduino and Java. Additionally, the system generates a moisture graph for easy tracking, ensuring plants receive the right amount of water.
